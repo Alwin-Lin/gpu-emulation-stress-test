@@ -76,6 +76,7 @@ steps:
     path: '/build_cache'
 
 options:
-    machineType: 'N1_HIGHCPU_8'
+    machineType: 'N1_STANDARD_8'
+    min-cpu-platform: 'Intel Haswell'
 
 timeout: 1800s
